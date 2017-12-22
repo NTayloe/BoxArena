@@ -1,4 +1,4 @@
-package boxArenaPackage;
+package BoxArena;
 
 import java.awt.EventQueue;
 
