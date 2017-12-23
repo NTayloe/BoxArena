@@ -62,10 +62,20 @@ public class BoxArena extends JPanel implements Runnable, ActionListener{
 	}
 	
 	private void updatePhysics(){
+		//update any player motions
 		if(moveRight){x += PLAYER_MOVEMENT_STEP;}
 		if(moveLeft){x -= PLAYER_MOVEMENT_STEP;}
 		if(moveUp){y -= PLAYER_MOVEMENT_STEP;}
 		if(moveDown){y += PLAYER_MOVEMENT_STEP;}
+		
+		//detect collisions / prevent player from escaping from arena:
+
+		//...with arena walls
+		
+		
+		//...with other players later on...
+		
+		
 	}
 	
 	private void drawThings(Graphics2D g2d){
